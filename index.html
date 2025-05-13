@@ -1,22 +1,60 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Candle Stays</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Candle Stays</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+
+    .logo {
+      max-width: 200px;
+      margin-bottom: 1rem;
+    }
+
+    .whatsapp-button {
+      background-color: #25D366;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    .footer-text {
+      margin-top: 10px;
+    }
+  </style>
 </head>
 <body>
-    <div class="overlay">
-        <img src="images/logo.jpeg" alt="Candle Stays Logo" class="logo" />
-        <h1>A home for two hearts</h1>
-        <p>Exclusive stays for couples | Book your love-filled getaway</p>
-        <div class="contacts">
-            <a href="mailto:candlestays@gmail.com" class="contact-link">candlestays@gmail.com</a>
-            <a href="https://wa.me/918095747041" class="whatsapp-button" target="_blank">Book on WhatsApp</a>
-            <a href="https://instagram.com/candle_stays" class="contact-link" target="_blank">@candle_stays</a>
-        </div>
-    </div>
+  <div class="overlay">
+    <img src="logo.jpeg" alt="Candle Stays Logo" class="logo" />
+    <h1>A home for two hearts</h1>
+    <p>Exclusive stays for couples | Book your love-filled getaway</p>
+    <p>Email: candlestays@gmail.com</p>
+    <a href="https://wa.me/918095747041" target="_blank" class="whatsapp-button">Book on WhatsApp</a>
+    <p class="footer-text">Instagram: @candle_stays</p>
+  </div>
 </body>
 </html>
