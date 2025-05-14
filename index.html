@@ -8,6 +8,9 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
 
+  <!-- Icons from Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
   <style>
     body {
       margin: 0;
@@ -34,11 +37,6 @@
       padding: 20px;
     }
 
-    .logo {
-      max-width: 200px;
-      margin-bottom: 1rem;
-    }
-
     .whatsapp-button {
       background-color: #25D366;
       color: white;
@@ -56,6 +54,30 @@
       background-color: #1ebe5d;
     }
 
+    .contact-section {
+      margin-top: 30px;
+      font-size: 16px;
+    }
+
+    .contact-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: white;
+      text-decoration: none;
+      margin: 8px 0;
+      transition: color 0.3s;
+    }
+
+    .contact-link:hover {
+      color: #ddd;
+    }
+
+    .contact-link i {
+      font-size: 18px;
+    }
+
     .footer-text {
       margin-top: 20px;
       font-size: 14px;
@@ -68,8 +90,22 @@
     <h1>A home for two hearts</h1>
     <p>Exclusive stays for couples | Book your love-filled getaway</p>
     <p>Email: candlestays@gmail.com</p>
+
+    <!-- WhatsApp Button -->
     <a href="https://wa.me/918095747041" target="_blank" class="whatsapp-button">Book on WhatsApp</a>
-    <p class="footer-text">Instagram: @candle_stays</p>
+
+    <!-- Contact Info -->
+    <div class="contact-section">
+      <h3>Contact Us</h3>
+      <a href="mailto:candlestays@gmail.com" class="contact-link" target="_blank">
+        <i class="fas fa-envelope"></i>Email – candlestays@gmail.com
+      </a>
+      <a href="https://instagram.com/candle_stays" class="contact-link" target="_blank">
+        <i class="fab fa-instagram"></i>Instagram – @candle_stays
+      </a>
+    </div>
+
+    <p class="footer-text">© 2025 Candle Stays</p>
   </div>
 </body>
 </html>
